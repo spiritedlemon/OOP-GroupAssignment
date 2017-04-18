@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿//Script to control camera movement
+
+
+using UnityEngine;
 using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
