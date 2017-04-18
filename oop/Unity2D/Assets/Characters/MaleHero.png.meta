@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: c66f6362290d73946b9ea5dbaf7b1c1a
+timeCreated: 1492510626
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MaleHero_0
+    21300002: MaleHero_1
+    21300004: MaleHero_2
+    21300006: MaleHero_3
+    21300008: MaleHero_4
+    21300010: MaleHero_5
+    21300012: MaleHero_6
+    21300014: MaleHero_7
+    21300016: MaleHero_8
+    21300018: MaleHero_9
+    21300020: MaleHero_10
+    21300022: MaleHero_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MaleHero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 10}
+        - {x: 7.5, y: 20}
+        - {x: -10.5, y: 20}
+        - {x: -16.5, y: 14}
+        - {x: -16.5, y: -31}
+        - {x: 7.5, y: -31}
+        - {x: 9.5, y: -30}
+        - {x: 17.5, y: -22}
+        - {x: 17.5, y: 5}
+    - name: MaleHero_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 187.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 22}
+        - {x: -11.5, y: 22}
+        - {x: -17.5, y: 18}
+        - {x: -17.5, y: -30}
+        - {x: 12.5, y: -30}
+        - {x: 17.5, y: -24}
+        - {x: 17.5, y: 6}
+        - {x: 15.5, y: 11}
+    - name: MaleHero_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 187.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 20}
+        - {x: -17.5, y: 16}
+        - {x: -17.5, y: -25}
+        - {x: -16.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 16.5, y: -28}
+        - {x: 16.5, y: 14}
+        - {x: 9.5, y: 20}
+    - name: MaleHero_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 20}
+        - {x: -16.5, y: 18}
+        - {x: -16.5, y: -22}
+        - {x: -14.5, y: -31}
+        - {x: 13.5, y: -31}
+        - {x: 14.5, y: -27}
+        - {x: 14.5, y: 18}
+        - {x: 11.5, y: 20}
+      - - {x: -10.5, y: 32}
+        - {x: -9.5, y: 29}
+        - {x: -2.5, y: 29}
+        - {x: -0.5, y: 31}
+        - {x: -0.5, y: 32}
+    - name: MaleHero_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 125.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 21}
+        - {x: -14.5, y: 19}
+        - {x: -14.5, y: -20}
+        - {x: -11.5, y: -31}
+        - {x: 12.5, y: -31}
+        - {x: 14.5, y: -13}
+        - {x: 14.5, y: 15}
+        - {x: 7.5, y: 21}
+    - name: MaleHero_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 125.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 19}
+        - {x: -14.5, y: 15}
+        - {x: -14.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 15.5, y: 16}
+        - {x: 10.5, y: 19}
+      - - {x: 0.5, y: 32}
+        - {x: 1.5, y: 29}
+        - {x: 8.5, y: 29}
+        - {x: 10.5, y: 31}
+        - {x: 10.5, y: 32}
+    - name: MaleHero_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 23}
+        - {x: -7.5, y: 23}
+        - {x: -17.5, y: 21}
+        - {x: -17.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 16.5, y: -29}
+        - {x: 16.5, y: 16}
+        - {x: 15.5, y: 17}
+      - - {x: -9.5, y: 32}
+        - {x: -8.5, y: 29}
+        - {x: 7.5, y: 29}
+        - {x: 9.5, y: 31}
+        - {x: 9.5, y: 32}
+    - name: MaleHero_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 25}
+        - {x: -7.5, y: 25}
+        - {x: -17.5, y: 23}
+        - {x: -17.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 17.5, y: -29}
+        - {x: 17.5, y: 15}
+        - {x: 16.5, y: 19}
+      - - {x: -8.5, y: 32}
+        - {x: -7.5, y: 29}
+        - {x: 1.5, y: 29}
+        - {x: 3.5, y: 31}
+        - {x: 3.5, y: 32}
+    - name: MaleHero_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 63.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 23}
+        - {x: -16.5, y: 20}
+        - {x: -16.5, y: -23}
+        - {x: -11.5, y: -31}
+        - {x: 17.5, y: -31}
+        - {x: 17.5, y: 23}
+      - - {x: -12.5, y: 32}
+        - {x: -11.5, y: 29}
+        - {x: -1.5, y: 29}
+        - {x: 0.5, y: 31}
+        - {x: 0.5, y: 32}
+      - - {x: 2.5, y: 32}
+        - {x: 3.5, y: 29}
+        - {x: 9.5, y: 29}
+        - {x: 11.5, y: 31}
+        - {x: 11.5, y: 32}
+    - name: MaleHero_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 11}
+        - {x: 13.5, y: 15}
+        - {x: 0.5, y: 18}
+        - {x: -5.5, y: 18}
+        - {x: -15.5, y: 10}
+        - {x: -15.5, y: -29}
+        - {x: -13.5, y: -31}
+        - {x: 13.5, y: -31}
+        - {x: 14.5, y: -30}
+      - - {x: -11.5, y: 32}
+        - {x: -10.5, y: 29}
+        - {x: -1.5, y: 29}
+        - {x: 0.5, y: 31}
+        - {x: 0.5, y: 32}
+    - name: MaleHero_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 20}
+        - {x: -4.5, y: 20}
+        - {x: -14.5, y: 13}
+        - {x: -14.5, y: -8}
+        - {x: -12.5, y: -31}
+        - {x: 13.5, y: -31}
+        - {x: 14.5, y: -20}
+        - {x: 14.5, y: 13}
+        - {x: 13.5, y: 17}
+    - name: MaleHero_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1.5
+        width: 47
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 19}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: -28}
+        - {x: -12.5, y: -31}
+        - {x: 16.5, y: -31}
+        - {x: 16.5, y: 15}
+        - {x: 3.5, y: 19}
+      - - {x: -0.5, y: 32}
+        - {x: 0.5, y: 29}
+        - {x: 9.5, y: 29}
+        - {x: 11.5, y: 31}
+        - {x: 11.5, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
