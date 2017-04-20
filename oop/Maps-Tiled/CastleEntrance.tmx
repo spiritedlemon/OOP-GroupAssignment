@@ -116,6 +116,11 @@
  </tileset>
  <tileset firstgid="1557" name="RedCollison" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="../ArtworkAssets/RedCollison.png" width="32" height="32"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="1" x="0.25" y="0.25" width="31.25" height="31.5"/>
+   </objectgroup>
+  </tile>
  </tileset>
  <layer name="Floor" width="40" height="40">
   <data encoding="csv">
