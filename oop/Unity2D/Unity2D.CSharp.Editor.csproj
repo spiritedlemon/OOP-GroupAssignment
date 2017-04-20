@@ -111,8 +111,15 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Tiled2Unity\Imported\BonusCave.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\CastleEntrance.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\CaveSpawn.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\Forest2.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\ForestForkL.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\ForestForkR.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\WaterSide.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\forest1.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\License.txt" />
     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
