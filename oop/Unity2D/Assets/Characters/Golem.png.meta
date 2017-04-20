@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2b3f0320006fd404f96d29817aacbc75
-timeCreated: 1492509912
+timeCreated: 1492710811
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -32,12 +32,12 @@ TextureImporter:
     21300050: Golem_25
     21300052: Golem_26
     21300054: Golem_27
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -49,10 +49,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -63,598 +61,406 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Golem_0
+    - serializedVersion: 2
+      name: Golem_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
+        x: 11
+        y: 197
+        width: 43
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 32}
-        - {x: -10, y: 32}
-        - {x: -23, y: 23}
-        - {x: -23, y: -24}
-        - {x: -22, y: -29}
-        - {x: 17, y: -29}
-        - {x: 20, y: -27}
-        - {x: 24, y: -10}
-        - {x: 24, y: 21}
-    - name: Golem_1
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
+        x: 75
+        y: 195
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 32}
-        - {x: -22, y: 25}
-        - {x: -23, y: 18}
-        - {x: -23, y: -11}
-        - {x: -13, y: -31}
-        - {x: 19, y: -31}
-        - {x: 24, y: -15}
-        - {x: 24, y: 22}
-        - {x: 7, y: 32}
-    - name: Golem_2
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
+        x: 139
+        y: 194
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6, y: -25}
-        - {x: 12, y: -26}
-        - {x: 24, y: -19}
-        - {x: 24, y: 14}
-        - {x: 7, y: 31}
-        - {x: 5, y: 32}
-        - {x: -10, y: 32}
-        - {x: -21, y: 24}
-        - {x: -23, y: 16}
-        - {x: -23, y: -12}
-        - {x: -15, y: -32}
-        - {x: -4, y: -32}
-        - {x: -1, y: -29}
-        - {x: 2, y: -21}
-        - {x: 1, y: -22}
-    - name: Golem_3
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
+        x: 203
+        y: 195
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 32}
-        - {x: -7, y: 32}
-        - {x: -23, y: 25}
-        - {x: -23, y: -20}
-        - {x: -15, y: -31}
-        - {x: 13, y: -31}
-        - {x: 24, y: -16}
-        - {x: 24, y: 15}
-    - name: Golem_4
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
+        x: 267
+        y: 195
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 32}
-        - {x: -20, y: 23}
-        - {x: -23, y: 20}
-        - {x: -23, y: -13}
-        - {x: -16, y: -31}
-        - {x: 15, y: -31}
-        - {x: 24, y: -11}
-        - {x: 24, y: 18}
-        - {x: 10, y: 32}
-    - name: Golem_5
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
+        x: 331
+        y: 194
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 32}
-        - {x: -23, y: 23}
-        - {x: -23, y: -17}
-        - {x: -17, y: -32}
-        - {x: 19, y: -32}
-        - {x: 24, y: -19}
-        - {x: 24, y: 19}
-        - {x: 12, y: 32}
-    - name: Golem_6
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
+        x: 395
+        y: 195
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 32}
-        - {x: -23, y: 19}
-        - {x: -23, y: -21}
-        - {x: -6, y: -31}
-        - {x: 22, y: -31}
-        - {x: 24, y: -24}
-        - {x: 24, y: 27}
-        - {x: 17, y: 32}
-    - name: Golem_7
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
+        x: 26
+        y: 130
+        width: 31
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27, y: 19}
-        - {x: 9, y: 31}
-        - {x: 5, y: 31}
-        - {x: 1, y: 30}
-        - {x: -8, y: 16}
-        - {x: -8, y: -32}
-        - {x: 27, y: -32}
-    - name: Golem_8
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 91
+        y: 130
+        width: 29
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 31}
-        - {x: 3, y: 31}
-        - {x: -7, y: 20}
-        - {x: -7, y: -28}
-        - {x: 5, y: -32}
-        - {x: 10, y: -25}
-        - {x: 10, y: -23}
-        - {x: 11, y: -25}
-        - {x: 9, y: -27}
-        - {x: 9, y: -29}
-        - {x: 12, y: -32}
-        - {x: 20, y: -32}
-        - {x: 26, y: -30}
-        - {x: 26, y: 17}
-    - name: Golem_9
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_9
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
+        x: 150
+        y: 130
+        width: 36
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: -32}
-        - {x: 27, y: -32}
-        - {x: 28, y: -30}
-        - {x: 28, y: 6}
-        - {x: 27, y: 16}
-        - {x: 14, y: 30}
-        - {x: -4, y: 30}
-        - {x: -12, y: 7}
-        - {x: -12, y: -32}
-        - {x: 0, y: -32}
-        - {x: 3, y: -29}
-        - {x: 3, y: -27}
-        - {x: 12, y: -31}
-    - name: Golem_10
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
+        x: 218
+        y: 130
+        width: 31
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 31}
-        - {x: 3, y: 31}
-        - {x: 1, y: 30}
-        - {x: -8, y: 16}
-        - {x: -8, y: -31}
-        - {x: -4, y: -32}
-        - {x: 26, y: -32}
-        - {x: 27, y: -28}
-        - {x: 27, y: 20}
-    - name: Golem_11
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_11
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
+        x: 277
+        y: 130
+        width: 38
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 29, y: 16}
-        - {x: 11, y: 31}
-        - {x: -5, y: 31}
-        - {x: -13, y: 14}
-        - {x: -13, y: -25}
-        - {x: -11, y: -28}
-        - {x: 2, y: -32}
-        - {x: 21, y: -32}
-        - {x: 23, y: -30}
-        - {x: 29, y: -18}
-    - name: Golem_12
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_12
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
+        x: 337
+        y: 130
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 130
+        width: 37
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 30}
-        - {x: -17, y: 2}
-        - {x: -17, y: -16}
-        - {x: -7, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 30}
-    - name: Golem_13
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_14
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
+        x: 11
+        y: 69
+        width: 51
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: 31}
-        - {x: -12, y: 18}
-        - {x: -12, y: -16}
-        - {x: -1, y: -32}
-        - {x: 20, y: -32}
-        - {x: 22, y: -31}
-        - {x: 29, y: -18}
-        - {x: 29, y: 10}
-        - {x: 17, y: 31}
-    - name: Golem_14
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 75
+        y: 68
+        width: 43
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -17, y: 32}
-        - {x: -23, y: 21}
-        - {x: -23, y: -23}
-        - {x: -17, y: -29}
-        - {x: 24, y: -29}
-        - {x: 24, y: 24}
-        - {x: 9, y: 32}
-      - - {x: 29, y: -29}
-        - {x: 32, y: -28}
-        - {x: 32, y: -25}
-        - {x: 29, y: -24}
-        - {x: 27, y: -26}
-    - name: Golem_15
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 139
+        y: 65
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 32}
-        - {x: -23, y: 28}
-        - {x: -23, y: -14}
-        - {x: -15, y: -30}
-        - {x: 15, y: -30}
-        - {x: 24, y: -16}
-        - {x: 24, y: 18}
-        - {x: 14, y: 32}
-    - name: Golem_16
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_17
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 203
+        y: 66
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1, y: -18}
-        - {x: 1, y: -22}
-        - {x: 5, y: -26}
-        - {x: 14, y: -32}
-        - {x: 18, y: -32}
-        - {x: 24, y: -16}
-        - {x: 24, y: 22}
-        - {x: 10, y: 32}
-        - {x: -13, y: 32}
-        - {x: -23, y: 24}
-        - {x: -23, y: -32}
-        - {x: -2, y: -32}
-        - {x: 0, y: -29}
-        - {x: 0, y: -26}
-        - {x: 1, y: -21}
-    - name: Golem_17
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_18
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 267
+        y: 68
+        width: 43
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 32}
-        - {x: -9, y: 32}
-        - {x: -23, y: 23}
-        - {x: -23, y: -18}
-        - {x: -20, y: -30}
-        - {x: -12, y: -32}
-        - {x: 7, y: -32}
-        - {x: 22, y: -28}
-        - {x: 24, y: -13}
-        - {x: 24, y: 19}
-    - name: Golem_18
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_19
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 331
+        y: 65
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 32}
-        - {x: -23, y: 16}
-        - {x: -23, y: -14}
-        - {x: -14, y: -28}
-        - {x: -8, y: -30}
-        - {x: 23, y: -30}
-        - {x: 24, y: -25}
-        - {x: 24, y: 23}
-        - {x: 9, y: 32}
-    - name: Golem_19
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_20
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
+        x: 395
+        y: 66
+        width: 43
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 32}
-        - {x: -23, y: 16}
-        - {x: -23, y: -12}
-        - {x: -20, y: -27}
-        - {x: -10, y: -32}
-        - {x: 22, y: -32}
-        - {x: 24, y: -29}
-        - {x: 24, y: 21}
-        - {x: 16, y: 32}
-    - name: Golem_20
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_21
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
+        x: 7
+        y: 2
+        width: 31
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 32}
-        - {x: -23, y: 23}
-        - {x: -23, y: -26}
-        - {x: -22, y: -30}
-        - {x: -3, y: -32}
-        - {x: 24, y: -32}
-        - {x: 24, y: 32}
-    - name: Golem_21
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 72
+        y: 2
+        width: 29
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 31}
-        - {x: -27, y: 15}
-        - {x: -27, y: -10}
-        - {x: -26, y: -17}
-        - {x: -23, y: -32}
-        - {x: 8, y: -32}
-        - {x: 8, y: 22}
-        - {x: -2, y: 31}
-    - name: Golem_22
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_23
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 134
+        y: 2
+        width: 36
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 31}
-        - {x: -26, y: 20}
-        - {x: -26, y: -31}
-        - {x: -20, y: -32}
-        - {x: -12, y: -32}
-        - {x: 7, y: -31}
-        - {x: 7, y: 15}
-        - {x: 1, y: 31}
-    - name: Golem_23
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_24
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 199
+        y: 2
+        width: 31
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: -29}
-        - {x: 0, y: -32}
-        - {x: 12, y: -32}
-        - {x: 12, y: 5}
-        - {x: 6, y: 30}
-        - {x: -8, y: 30}
-        - {x: -12, y: 28}
-        - {x: -28, y: 18}
-        - {x: -28, y: -29}
-        - {x: -27, y: -32}
-        - {x: -16, y: -32}
-        - {x: -14, y: -30}
-        - {x: -14, y: -28}
-        - {x: -9, y: -20}
-    - name: Golem_24
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_25
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 261
+        y: 2
+        width: 38
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: 31}
-        - {x: -19, y: 31}
-        - {x: -27, y: 20}
-        - {x: -27, y: -24}
-        - {x: -24, y: -28}
-        - {x: -19, y: -31}
-        - {x: -15, y: -32}
-        - {x: 4, y: -32}
-        - {x: 7, y: -31}
-        - {x: 8, y: -10}
-        - {x: 8, y: 13}
-    - name: Golem_25
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_26
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 321
+        y: 2
+        width: 46
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 31}
-        - {x: -28, y: 16}
-        - {x: -29, y: 12}
-        - {x: -29, y: -13}
-        - {x: -18, y: -32}
-        - {x: 1, y: -32}
-        - {x: 13, y: -16}
-        - {x: 13, y: 5}
-        - {x: 0, y: 31}
-    - name: Golem_26
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Golem_27
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
+        x: 389
+        y: 2
+        width: 37
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 30}
-        - {x: -32, y: 19}
-        - {x: -32, y: -32}
-        - {x: 17, y: -32}
-        - {x: 17, y: 1}
-        - {x: 6, y: 30}
-    - name: Golem_27
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 31}
-        - {x: -29, y: 10}
-        - {x: -29, y: -17}
-        - {x: -22, y: -27}
-        - {x: -18, y: -32}
-        - {x: 9, y: -32}
-        - {x: 12, y: -21}
-        - {x: 12, y: 24}
-        - {x: 3, y: 31}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
