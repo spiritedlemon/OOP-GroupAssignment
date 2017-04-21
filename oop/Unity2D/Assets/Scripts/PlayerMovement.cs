@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		
 		//At zero animation ends
-		if(attTimeCounter >= 0)
+		if(attTimeCounter <= 0)
 		{
 			
 			attacking = false;
