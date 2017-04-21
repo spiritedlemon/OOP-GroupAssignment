@@ -1,4 +1,4 @@
-public class PlayerController : MonoBehaviour {
+/*public class PlayerController : MonoBehaviour {
 
     public float moveSpeed;
 
@@ -90,4 +90,4 @@ public class PlayerController : MonoBehaviour {
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
     }
-}?
+} */
