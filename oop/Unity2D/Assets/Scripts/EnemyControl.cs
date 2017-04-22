@@ -10,9 +10,9 @@ public class EnemyControl : MonoBehaviour {
 
 	private bool moving;
 
-	public float timeBetweenMove;
+	public float timeBetweenMove;//how long the enemies stay still while not moving
 	private float timeBetweenMoveCounter;
-	public float timetoMove;
+	public float timetoMove; //how long the enemies move for 
 	private float timetoMoveCounter;
 
 	private Vector3 moveDirection; 
@@ -20,9 +20,10 @@ public class EnemyControl : MonoBehaviour {
 	void Start() {
 
 		myRigidBody = GetComponent<Rigidbody2D> ();
-		timeBetweenMoveCounter = timeBetweenMove;
-		timetoMoveCounter = timetoMove;
-
+		//timeBetweenMoveCounter = timeBetweenMove; used for testing only
+		//timetoMoveCounter = timetoMove;
+		timeBetweenMoveCounter = Random.Range (timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
+		timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 	}
 
 	void Update() {
@@ -35,7 +36,8 @@ public class EnemyControl : MonoBehaviour {
 			if (timetoMoveCounter < 0f) {
 
 				moving = false;
-				timeBetweenMoveCounter = timeBetweenMove;
+				//timeBetweenMoveCounter = timeBetweenMove;
+				timeBetweenMoveCounter = Random.Range (timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
 			}
 
 		} else {
@@ -45,7 +47,8 @@ public class EnemyControl : MonoBehaviour {
 			if (timeBetweenMoveCounter < 0f) {
 
 				moving = true;
-				timetoMoveCounter = timetoMove;
+				//timetoMoveCounter = timetoMove;
+				timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 
 				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
 			}
