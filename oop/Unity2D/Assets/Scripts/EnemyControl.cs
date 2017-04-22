@@ -22,6 +22,7 @@ public class EnemyControl : MonoBehaviour {
 		myRigidBody = GetComponent<Rigidbody2D> ();
 		//timeBetweenMoveCounter = timeBetweenMove; used for testing only
 		//timetoMoveCounter = timetoMove;
+		//these are used to randomly move the slimes so that they are not moving in the same direction all the time 
 		timeBetweenMoveCounter = Random.Range (timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
 		timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 	}
@@ -49,7 +50,7 @@ public class EnemyControl : MonoBehaviour {
 				moving = true;
 				//timetoMoveCounter = timetoMove;
 				timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
-
+				//used to randomly generate the direction the enemies move in 
 				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
 			}
 		}

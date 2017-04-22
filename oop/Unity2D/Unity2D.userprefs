@@ -8,7 +8,7 @@
       <File FileName="Assets\Scripts\Warp.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DamageEnemy.cs" Line="1" Column="1" />
       <File FileName="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyControl.cs" Line="22" Column="42" />
+      <File FileName="Assets\Scripts\EnemyControl.cs" Line="53" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
