@@ -51,7 +51,8 @@ public class EnemyControl : MonoBehaviour {
 				//timetoMoveCounter = timetoMove;
 				timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 				//used to randomly generate the direction the enemies move in 
-				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f);
+				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f); //multiplying the random number by movespeed, to make
+				//the enemy move at a varying speed
 			}
 		}
 
