@@ -6,6 +6,7 @@ public class PauseGame : MonoBehaviour {
 
 	//variables 
 	public Transform PauseMenu;
+	public Transform Player;
 
 	// Use this for initialization
 	void Start () {
@@ -16,13 +17,21 @@ public class PauseGame : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Escape)) 
 		{
-			if (PauseMenu.gameObject.activeInHierarchy == false) 
-			{
-				PauseMenu.gameObject.SetActive(true);
-			} else 
-			{
-				PauseMenu.gameObject.SetActive (false);
-			}
+			Pause(); //calling the pause method 
+		}
+	}
+	public void Pause()
+	{
+		if (PauseMenu.gameObject.activeInHierarchy == false) 
+		{
+			PauseMenu.gameObject.SetActive(true);
+			Time.timeScale = 0;
+			Player.GetComponent<CameraFollow> ().enabled = false;
+		} else 
+		{
+			PauseMenu.gameObject.SetActive (false);
+			Time.timeScale = 1;
+			Player.GetComponent<CameraFollow> ().enabled = true;
 		}
 	}
 }
