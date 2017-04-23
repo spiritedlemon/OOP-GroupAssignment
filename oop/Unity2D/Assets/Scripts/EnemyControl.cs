@@ -15,7 +15,7 @@ public class EnemyControl : MonoBehaviour {
 	public float timetoMove; //how long the enemies move for 
 	private float timetoMoveCounter;
 
-	private Vector3 moveDirection; 
+	private Vector3 moveDirection; //in the direction the enemy is moving this uses a vector
 
 	void Start() {
 
