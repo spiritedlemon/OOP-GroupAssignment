@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour {
 	private bool attacking = false;
 	public float attTime; //How long player attacks for
 	private float attTimeCounter;
+	
+	public BoxCollider2D boxCol1;
 
 	// Use this for initialization
 	void Start () 
@@ -28,34 +30,37 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () 
 	{
 		
-		if(!attacking){
-			
-		Vector2 movement_vector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical") );
-			
-		if(movement_vector != Vector2.zero)
+		if(!attacking)
 		{
-			anim.SetBool ("iswalking", true);
-			anim.SetFloat ("Input_x", movement_vector.x);
-			anim.SetFloat ("Input_y", movement_vector.y);
-		}
-		else
-		{
-			anim.SetBool ("iswalking", false);
-		}
-		
-		rbody.MovePosition (rbody.position + movement_vector * Time.deltaTime);
-		
-		
-		
-		//Attacking Happens here
-		if(Input.GetKeyDown(KeyCode.Space))
-		{
-			attTimeCounter = attTime;	//attTime is set in unity - Under the the player object
-			attacking = true; 
-			rbody.velocity = Vector2.zero;
-			anim.SetBool("Attack", true);
 			
-		}
+			Vector2 movement_vector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical") );
+				
+			if(movement_vector != Vector2.zero)
+			{
+				anim.SetBool ("iswalking", true);
+				anim.SetFloat ("Input_x", movement_vector.x);
+				anim.SetFloat ("Input_y", movement_vector.y);
+			}
+			else
+			{
+				anim.SetBool ("iswalking", false);
+			}
+			
+			rbody.MovePosition (rbody.position + movement_vector * Time.deltaTime);
+			
+			
+			//Attacking Happens here
+			if(Input.GetKeyDown(KeyCode.Space))
+			{
+				attTimeCounter = attTime;	//attTime is set in unity - Under the the player object
+				attacking = true; 
+				
+				boxCol1.enabled = true;//Enable weapon box collider
+				
+				rbody.velocity = Vector2.zero;
+				anim.SetBool("Attack", true);
+				
+			}
 		
 		}//End of IfNotAttacking
 		
@@ -73,6 +78,7 @@ public class PlayerMovement : MonoBehaviour {
 			
 			attacking = false;
 			anim.SetBool("Attack", false);
+			boxCol1.enabled = false; //Disable weapon box collider
 			
 		}
 		
