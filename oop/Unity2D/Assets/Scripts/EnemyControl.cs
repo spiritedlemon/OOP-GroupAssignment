@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class EnemyControl : MonoBehaviour {
 
-	public float moveSpeed;
+	public float moveSpeed; //variable used to set the speed the enemy is moving at
 
 	private Rigidbody2D myRigidBody; //rigidbody component 
 
@@ -19,7 +19,7 @@ public class EnemyControl : MonoBehaviour {
 
 	void Start() {
 
-		myRigidBody = GetComponent<Rigidbody2D> ();
+		myRigidBody = GetComponent<Rigidbody2D> (); //using the rigidbody component
 		//timeBetweenMoveCounter = timeBetweenMove; used for testing only
 		//timetoMoveCounter = timetoMove;
 		//these are used to randomly move the slimes so that they are not moving in the same direction all the time 
@@ -27,11 +27,11 @@ public class EnemyControl : MonoBehaviour {
 		timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 	}
 
-	void Update() {
+	void Update() { //update is called once per frame
 
 		if (moving) {
 
-			timetoMoveCounter -= Time.deltaTime;
+			timetoMoveCounter -= Time.deltaTime; //calculating time using the deltatime built into unity
 			myRigidBody.velocity = moveDirection;
 
 			if (timetoMoveCounter < 0f) {
