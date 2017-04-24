@@ -19,6 +19,12 @@ public class NPCMovement : MonoBehaviour {
 	
 	private Animator anim;
 	
+	//Lock them in an area
+	public Collider2D walkZone;
+	private bool hasWalkZone = false;
+	private Vector2 minWalkPoint;
+	private Vector2 maxWalkPoint;
+	
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +37,12 @@ public class NPCMovement : MonoBehaviour {
 		
 		ChooseDirection();
 		
+		if(walkZone != null)
+		{
+			minWalkPoint = walkZone.bounds.min;
+			maxWalkPoint = walkZone.bounds.max;
+			hasWalkZone = true;
+		}
 	}
 	
 	// Update is called once per frame
@@ -49,32 +61,79 @@ public class NPCMovement : MonoBehaviour {
 				case 0:
 				{
 					rb.velocity = new Vector2(0, moveSpeed); //y value inreases by Movespeed - Up
-					anim.SetFloat ("inputX", 0);
-					anim.SetFloat ("inputY", 1);
+					
+					if( (hasWalkZone == true) && (transform.position.y > maxWalkPoint.y) ) //If npc cannot go that direction
+					{
+						isWalking = false;
+						anim.SetBool("GolWalk", false);
+						waitCounter = waitTime;
+					}
+					else //If they can go
+					{
+						anim.SetFloat ("inputX", 0);
+						anim.SetFloat ("inputY", 1);
+					}
+					
 					break;
 				}
 				
 				case 1:
 				{
 					rb.velocity = new Vector2(moveSpeed, 0); //x value increases - Right
-					anim.SetFloat ("inputX", 1);
-					anim.SetFloat ("inputY", 0);
+					
+					if( (hasWalkZone == true) && (transform.position.x > maxWalkPoint.x) ) //If npc cannot go that direction
+					{
+						isWalking = false;
+						anim.SetBool("GolWalk", false);
+						waitCounter = waitTime;
+					}
+					else //If they can go
+					{
+						anim.SetFloat ("inputX", 1);
+						anim.SetFloat ("inputY", 0);
+					}
+					
+					
 					break;
 				}
 				
 				case 2:
 				{
 					rb.velocity = new Vector2(0, -moveSpeed); //y value decreases - Down
-					anim.SetFloat ("inputX", 0);
-					anim.SetFloat ("inputY", -1);
+					
+					if( (hasWalkZone == true) && (transform.position.y < minWalkPoint.y) ) //If npc cannot go that direction
+					{
+						isWalking = false;
+						anim.SetBool("GolWalk", false);
+						waitCounter = waitTime;
+					}
+					else //If they can go
+					{
+						anim.SetFloat ("inputX", 0);
+						anim.SetFloat ("inputY", -1);
+					}
+					
+					
 					break;
 				}
 				
 				case 3:
 				{
 					rb.velocity = new Vector2(-moveSpeed, 0); //x value decreases - Left
-					anim.SetFloat ("inputX", -1);
-					anim.SetFloat ("inputY", 0);
+					
+					if( (hasWalkZone == true) && (transform.position.x < minWalkPoint.x) ) //If npc cannot go that direction
+					{
+						isWalking = false;
+						anim.SetBool("GolWalk", false);
+						waitCounter = waitTime;
+					}
+					else //If they can go
+					{
+						anim.SetFloat ("inputX", -1);
+						anim.SetFloat ("inputY", 0);
+					}
+					
+					
 					break;
 				}
 				
