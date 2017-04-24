@@ -8,9 +8,10 @@ public class ScreenFader : MonoBehaviour {
 	bool isFading = false;
 
 	// Use this for initialization
-	void Start () {
-		anim = GetComponent<Animator> ();
+	void Start () 
+	{
 		
+		anim = GetComponent<Animator> ();
 		
 	}
 	
@@ -20,7 +21,10 @@ public class ScreenFader : MonoBehaviour {
 		anim.SetTrigger("FadeIn");
 		
 		while (isFading)		//Infinitely run until criteria is met
+		{
 			yield return null;
+		}
+		
 		
 	}
 	
@@ -30,8 +34,11 @@ public class ScreenFader : MonoBehaviour {
 		anim.SetTrigger("FadeOut");
 		
 		while (isFading)		//Infinitely run until criteria is met
+		{
 			yield return null;
-		
+		}
+				
+	
 	}
 	
 	
@@ -43,9 +50,4 @@ public class ScreenFader : MonoBehaviour {
 	
 	
 	
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

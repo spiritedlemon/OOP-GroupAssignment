@@ -5,15 +5,10 @@ public class Warp : MonoBehaviour {
 	
 	
 	public Transform WarpTarget;
-	//public Rigidbody2D rb;
 	
 	IEnumerator OnTriggerEnter2D(Collider2D other)	//Changed to Enumerator to use yield statements
 	{
 		ScreenFader sf = GameObject.FindGameObjectWithTag("Fader").GetComponent<ScreenFader> ();
-		//rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
-
-		
-		//??.GetComponent<PlayerMovement>().enable = false; //Failed Attempt to freeze player for fade out 
 		
 		yield return StartCoroutine(sf.FadeToBlack () ); //Fades screen before player is moved
 		
@@ -26,20 +21,9 @@ public class Warp : MonoBehaviour {
 		
 		yield return StartCoroutine(sf.FadeToClear () ); //Clears screen after player has been moved
 		
-		//rb.constraints = RigidbodyConstraints2D.None;
-        //rb.constraints = RigidbodyConstraints2D.FreezeRotation;﻿
-		
-		//??.GetComponent<PlayerMovement>().enable = true; //Failed Attempt to freeze player for fade out 
+
 	}
 	
 	
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
