@@ -5,7 +5,7 @@ using UnityEngine;
 public class PauseGame : MonoBehaviour {
 
 	//variables 
-	public Transform PauseMenu;
+	public Transform Canvas;
 	public Transform Player;
 
 	// Use this for initialization
@@ -22,14 +22,14 @@ public class PauseGame : MonoBehaviour {
 	}
 	public void Pause()
 	{
-		if (PauseMenu.gameObject.activeInHierarchy == false) 
+		if (Canvas.gameObject.activeInHierarchy == false) 
 		{
-			PauseMenu.gameObject.SetActive(true);
+			Canvas.gameObject.SetActive(true);
 			Time.timeScale = 0;
 			Player.GetComponent<CameraFollow> ().enabled = false;
 		} else 
 		{
-			PauseMenu.gameObject.SetActive (false);
+			Canvas.gameObject.SetActive (false);
 			Time.timeScale = 1;
 			Player.GetComponent<CameraFollow> ().enabled = true;
 		}
