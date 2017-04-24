@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float attTime; //How long player attacks for
 	private float attTimeCounter;
 	
-	public BoxCollider2D boxCol1;
+	public BoxCollider2D boxCol1;	//Used to enable weapon when its swung - this means it wont collide before the player attacks
 
 	// Use this for initialization
 	void Start () 
