@@ -22,6 +22,7 @@ public class NPCMovement : MonoBehaviour {
 	//Lock them in an area
 	public Collider2D walkZone;
 	private bool hasWalkZone = false;
+	
 	private Vector2 minWalkPoint;
 	private Vector2 maxWalkPoint;
 	
