@@ -78,10 +78,10 @@
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\DamageEnemy.cs" />
     <Compile Include="Assets\Scripts\DamagePlayer.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\EnemyControl.cs" />
-    <Compile Include="Assets\Scripts\Golem Control.cs" />
-    <Compile Include="Assets\Scripts\GolemControl.cs" />
-    <Compile Include="Assets\Scripts\Golem_Control.cs" />
+    <Compile Include="Assets\Scripts\HealthLevelControl.cs" />
+    <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\PlayerHP.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ScreenFader.cs" />
