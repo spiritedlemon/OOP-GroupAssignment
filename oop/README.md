@@ -32,6 +32,20 @@ chance.
 **SpoilersAbove**
 
 
+
+Features of Note:
+1)All Npc/Enemies are boxed in to prevent them changing scenes
+2)Maps are separated out instead of being one big one - Allows more variance later in games development
+3)Screen fades in/out as player character warps between maps
+4)Different types of enemies/npcs
+5)Pause menu actually freezes time
+6)Player respawns with full hp when dead
+7)Player/Enemy HP bar
+8)Demon/End Boss takes less damage(one third damage)
+9)Maps/Characters should have consistent layering
+10)Scene change between main menu and Game itself
+
+
 Why 2D?:
 We decided on a 2D game as we felt we could create a more fun and, likely, a better looking game, 
 especially considering our lack of experience with Unity and C#. We hoped this would allow us
