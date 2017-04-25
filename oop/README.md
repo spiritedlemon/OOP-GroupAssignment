@@ -25,8 +25,9 @@ Once reaching the castle entrance the player will find a demon standing at the g
 Defeating him will end the game.
 
 There's two paths you can take, one is longer (The right path)but brings you past a cave housing a golem who
-gifts you a sword. In our current version the sword is only aesthetic but in future versions
-we hope to make it more powerful, rewarding the player for exploring. 
+gifts you a sword. This sword does more damage and thus should allow the player kill the final boss more easily.
+This 'reward for exploring' style is something we wanted to emphasize more in our game but sadly didnt get a 
+chance.
 
 **SpoilersAbove**
 
