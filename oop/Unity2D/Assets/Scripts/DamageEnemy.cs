@@ -15,8 +15,9 @@ public class DamageEnemy : MonoBehaviour {
 	void Update () {
 
 	}
-
-	void OnCollisionEnter2D(Collision2D other)
+	
+	//Old:void OnCollisionEnter2D(Collision2D other)
+	void OnTriggerEnter2D(Collider2D other) //should work with sword now
 	{
 		if(other.gameObject.name == "SlimeAIEnemy1")
 		{
@@ -36,7 +37,7 @@ public class DamageEnemy : MonoBehaviour {
 		}
 		if(other.gameObject.name == "RedDemonAI")
 		{
-			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage/3);	//Pass damage to the HurtEnemy Fnc
 		}
 		if(other.gameObject.name == "BatEnemy1")
 		{
