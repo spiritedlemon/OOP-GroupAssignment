@@ -10,9 +10,12 @@ public class DialogueManager : MonoBehaviour {
 	
 	public bool dialogueActive;
 	
+	
 
 	// Use this for initialization
 	void Start () {
+		dBox.SetActive(false);
+		dialogueActive = false;
 		
 	}
 	
@@ -30,6 +33,7 @@ public class DialogueManager : MonoBehaviour {
 		
 	}
 	
+	
 	public void ShowBox(string dialogue) //Used to display string in box
 	{
 		
@@ -38,4 +42,21 @@ public class DialogueManager : MonoBehaviour {
 		dText.text = dialogue;
 		
 	}
+	
+	
+
+	
+	
 }
+
+/* - Golem Conversation
+It has been some time since a human has stopped by... 
+The last one left something here
+Maybe he was hiding it, who knows...
+I have long since given up guessing
+*/
+
+
+
+
+
