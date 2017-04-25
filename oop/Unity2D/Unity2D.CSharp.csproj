@@ -79,7 +79,6 @@
     <Compile Include="Assets\Scripts\DamageEnemy.cs" />
     <Compile Include="Assets\Scripts\DamagePlayer.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\EnemyControl.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementConfined.cs" />
     <Compile Include="Assets\Scripts\HealthLevelControl.cs" />
     <Compile Include="Assets\Scripts\NPCMovement.cs" />
