@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 38ec2f7499aae3748b7d9628a131e426
+timeCreated: 1493119321
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pirate Style
+  fontNames:
+  - Pirate Style
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
