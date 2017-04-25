@@ -34,6 +34,26 @@ public class DamageEnemy : MonoBehaviour {
 		{
 			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
 		}
+		if(other.gameObject.name == "RedDemonAI")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "BatEnemy1")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "BatEnemy2")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "BatEnemy3")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "BatEnemy4")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
 	}
 
 }
