@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\ScreenFader.cs" />
     <Compile Include="Assets\Scripts\UpgradeWeapon.cs" />
     <Compile Include="Assets\Scripts\Warp.cs" />
+    <Compile Include="Assets\Scripts\menuControl.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GroupLayer.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />

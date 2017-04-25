@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/pro.unity
-  isLoaded: 1
-  isActive: 1
