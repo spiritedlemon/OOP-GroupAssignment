@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyHP : MonoBehaviour {
 
-	public int EnemyMaxHP = 100;
+	//variables 
+	public int EnemyMaxHP = 100; 
 	public int EnemyCurrentHP;
 
 
@@ -21,7 +22,7 @@ public class EnemyHP : MonoBehaviour {
 
 		if(EnemyCurrentHP <= 0)
 		{
-			gameObject.SetActive(false);
+			gameObject.SetActive(false); //destroys the enemy and stops displaying them 
 		}
 
 	}
