@@ -62,12 +62,15 @@ public class EnemyMovementConfined : MonoBehaviour {
 			{
 				case 0:
 				{
-					rb.velocity = new Vector2(0, moveSpeed); //y value inreases by Movespeed - Up
 					
 					if( (hasWalkZone == true) && (transform.position.y > maxWalkPoint.y) ) //If npc cannot go that direction
 					{
 						isWalking = false;
 						waitCounter = waitTime;
+					}
+					else
+					{
+						rb.velocity = new Vector2(0, moveSpeed); //y value inreases by Movespeed - Up
 					}
 
 					break;
@@ -75,12 +78,15 @@ public class EnemyMovementConfined : MonoBehaviour {
 				
 				case 1:
 				{
-					rb.velocity = new Vector2(moveSpeed, 0); //x value increases - Right
 					
 					if( (hasWalkZone == true) && (transform.position.x > maxWalkPoint.x) ) //If npc cannot go that direction
 					{
 						isWalking = false;
 						waitCounter = waitTime;
+					}
+					else
+					{
+						rb.velocity = new Vector2(moveSpeed, 0); //x value increases - Right
 					}
 
 					break;
@@ -88,12 +94,15 @@ public class EnemyMovementConfined : MonoBehaviour {
 				
 				case 2:
 				{
-					rb.velocity = new Vector2(0, -moveSpeed); //y value decreases - Down
 					
 					if( (hasWalkZone == true) && (transform.position.y < minWalkPoint.y) ) //If npc cannot go that direction
 					{
 						isWalking = false;
 						waitCounter = waitTime;
+					}
+					else
+					{
+						rb.velocity = new Vector2(0, -moveSpeed); //y value decreases - Down
 					}
 					
 					break;
@@ -101,12 +110,15 @@ public class EnemyMovementConfined : MonoBehaviour {
 				
 				case 3:
 				{
-					rb.velocity = new Vector2(-moveSpeed, 0); //x value decreases - Left
 					
 					if( (hasWalkZone == true) && (transform.position.x < minWalkPoint.x) ) //If npc cannot go that direction
 					{
 						isWalking = false;
 						waitCounter = waitTime;
+					}
+					else
+					{
+						rb.velocity = new Vector2(-moveSpeed, 0); //x value decreases - Left
 					}
 					
 					break;

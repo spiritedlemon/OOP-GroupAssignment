@@ -61,7 +61,6 @@ public class NPCMovement : MonoBehaviour {
 			{
 				case 0:
 				{
-					rb.velocity = new Vector2(0, moveSpeed); //y value inreases by Movespeed - Up
 					
 					if( (hasWalkZone == true) && (transform.position.y > maxWalkPoint.y) ) //If npc cannot go that direction
 					{
@@ -73,6 +72,8 @@ public class NPCMovement : MonoBehaviour {
 					{
 						anim.SetFloat ("inputX", 0);
 						anim.SetFloat ("inputY", 1);
+						
+						rb.velocity = new Vector2(0, moveSpeed); //y value inreases by Movespeed - Up
 					}
 					
 					break;
@@ -80,7 +81,6 @@ public class NPCMovement : MonoBehaviour {
 				
 				case 1:
 				{
-					rb.velocity = new Vector2(moveSpeed, 0); //x value increases - Right
 					
 					if( (hasWalkZone == true) && (transform.position.x > maxWalkPoint.x) ) //If npc cannot go that direction
 					{
@@ -92,6 +92,8 @@ public class NPCMovement : MonoBehaviour {
 					{
 						anim.SetFloat ("inputX", 1);
 						anim.SetFloat ("inputY", 0);
+						
+						rb.velocity = new Vector2(moveSpeed, 0); //x value increases - Right
 					}
 					
 					
@@ -100,7 +102,6 @@ public class NPCMovement : MonoBehaviour {
 				
 				case 2:
 				{
-					rb.velocity = new Vector2(0, -moveSpeed); //y value decreases - Down
 					
 					if( (hasWalkZone == true) && (transform.position.y < minWalkPoint.y) ) //If npc cannot go that direction
 					{
@@ -112,6 +113,8 @@ public class NPCMovement : MonoBehaviour {
 					{
 						anim.SetFloat ("inputX", 0);
 						anim.SetFloat ("inputY", -1);
+						
+						rb.velocity = new Vector2(0, -moveSpeed); //y value decreases - Down
 					}
 					
 					
@@ -120,7 +123,6 @@ public class NPCMovement : MonoBehaviour {
 				
 				case 3:
 				{
-					rb.velocity = new Vector2(-moveSpeed, 0); //x value decreases - Left
 					
 					if( (hasWalkZone == true) && (transform.position.x < minWalkPoint.x) ) //If npc cannot go that direction
 					{
@@ -132,6 +134,8 @@ public class NPCMovement : MonoBehaviour {
 					{
 						anim.SetFloat ("inputX", -1);
 						anim.SetFloat ("inputY", 0);
+						
+						rb.velocity = new Vector2(-moveSpeed, 0); //x value decreases - Left
 					}
 					
 					
