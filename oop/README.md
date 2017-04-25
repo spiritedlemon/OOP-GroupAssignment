@@ -7,7 +7,7 @@ Simon O'Leary - C15413218
 
 Link to Repo: https://github.com/spiritedlemon/OOP-GroupAssignment/tree/master/oop
 
-We are creating a 2D adventure game using Unity (version 5.2.2f1).
+We have created a 2D adventure game using Unity (version 5.2.2f1).
 
 
 
@@ -64,9 +64,9 @@ without using the Unity API as we neared the end as rather astounding.
 
 Creating the Assignment:
 We used a program called 'Tiled' to create the maps and then 'Tiled2Unity' to import them.
-This gave us some really nice maps which had collisions rendered on them and was a great 
-starting point for us. We used art assets found online including from the LPC(Liberated
-Pixel Cup). None of us are great artists so this seemed like the best thing to do.
+This gave us some really nice maps which had collisions we had set up in tiled, already rendered 
+on them and was a great starting point for us. We used art assets found online including from the 
+LPC(Liberated Pixel Cup). None of us are great artists so this seemed like the best thing to do.
 
 
 
@@ -75,8 +75,8 @@ I'm glad we chose to do a game in Unity. We originally thought we would create a
 processing but we decided to do Unity instead, which set us back a considerable amount of time.
 As the assignment progressed it become enjoyable to work on it, taking priority over other 
 assignments purely because it was interesting and fun. It let us be creative and although
-we were often gated by inexperience that won't always be the case.
+we were often gated by inexperience that didn't stop us trying.
 
 I'd like to continue working on the game even after it's submission and try make it the game
-we hd in mind when we started.
+we had in mind when we started.
 
