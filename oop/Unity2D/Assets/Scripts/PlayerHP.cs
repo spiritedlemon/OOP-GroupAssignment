@@ -9,6 +9,9 @@ public class PlayerHP : MonoBehaviour {
 	public int playerMaxHP = 100;
 	public int playerCurrentHP;
 	
+	public GameObject player;
+	public Transform checkpoint;
+	
 
 	// Use this for initialization
 	void Start () 
@@ -24,6 +27,10 @@ public class PlayerHP : MonoBehaviour {
 		if(playerCurrentHP <= 0)
 		{
 			gameObject.SetActive(false);
+			
+			player.gameObject.transform.position = checkpoint.position; //Changes player's destination to spawn
+			Camera.main.transform.position = checkpoint.position;	//Teleports camera to character instead of dragging it between maps
+			playerCurrentHP = playerMaxHP;
 		}
 		
 	}
