@@ -18,7 +18,19 @@ public class DamageEnemy : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if(other.gameObject.name == "Enemies")
+		if(other.gameObject.name == "SlimeAIEnemy1")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "SlimeAIEnemy2")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "SlimeAIEnemy3")
+		{
+			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
+		}
+		if(other.gameObject.name == "SlimeAIEnemy4")
 		{
 			other.gameObject.GetComponent<EnemyHP>().HurtEnemy(damage);	//Pass damage to the HurtEnemy Fnc
 		}
