@@ -6,7 +6,7 @@ public class EnemyControl : MonoBehaviour {
 
 	public float moveSpeed; //variable used to set the speed the enemy is moving at
 
-	private Rigidbody2D myRigidBody; //rigidbody component 
+	private Rigidbody2D rb; //rigidbody component 
 
 	private bool moving;
 
@@ -16,10 +16,14 @@ public class EnemyControl : MonoBehaviour {
 	private float timetoMoveCounter;
 
 	private Vector3 moveDirection; //in the direction the enemy is moving this uses a vector
+	
+	
+	
 
 	void Start() {
 
-		myRigidBody = GetComponent<Rigidbody2D> (); //using the rigidbody component
+		rb = GetComponent<Rigidbody2D> (); //using the rigidbody component
+		
 		//timeBetweenMoveCounter = timeBetweenMove; used for testing only
 		//timetoMoveCounter = timetoMove;
 		//these are used to randomly move the slimes so that they are not moving in the same direction all the time 
@@ -32,7 +36,11 @@ public class EnemyControl : MonoBehaviour {
 		if (moving) {
 
 			timetoMoveCounter -= Time.deltaTime; //calculating time using the deltatime built into unity
-			myRigidBody.velocity = moveDirection;
+
+			
+			rb.velocity = moveDirection;
+			
+			
 
 			if (timetoMoveCounter < 0f) {
 
@@ -44,16 +52,18 @@ public class EnemyControl : MonoBehaviour {
 		} else {
 
 			timeBetweenMoveCounter -= Time.deltaTime; //length of time it takes one update of the screen
-			myRigidBody.velocity = Vector2.zero;
+			rb.velocity = Vector2.zero;
 			if (timeBetweenMoveCounter < 0f) {
 
 				moving = true;
 				//timetoMoveCounter = timetoMove;
 				timetoMoveCounter = Random.Range (timetoMove * 0.75f, timeBetweenMove * 1.25f); 
 				//used to randomly generate the direction the enemies move in 
-				//multiplying the random number by movespeed, to make
-				moveDirection = new Vector3 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed, 0f); 
-				//the enemy move at a varying speed
+				
+				//multiplying the random number by movespeed, to make the enemy move at a varying speed
+				//(I edited below so it's now a Vector2)
+				moveDirection = new Vector2 (Random.Range (-1f, 1f) * moveSpeed, Random.Range (-1f, 1f) * moveSpeed); 
+				
 			}
 		}
 
