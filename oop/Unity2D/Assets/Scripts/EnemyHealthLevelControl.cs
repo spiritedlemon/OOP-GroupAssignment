@@ -9,7 +9,7 @@ public class EnemyHealthLevelControl : MonoBehaviour {
 	//variables
 	public Slider healthbar;
 	public Texture HealthText;
-	public EnemyHP playerHealth;
+	public EnemyHP EnemyHealth;
 
 	// Use this for initialization
 	void Start ()
@@ -20,7 +20,8 @@ public class EnemyHealthLevelControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		healthbar.maxValue = playerHealth.EnemyMaxHP;
-		healthbar.value = playerHealth.EnemyCurrentHP;
+		healthbar.maxValue = EnemyHealth.EnemyMaxHP;
+		healthbar.value = EnemyHealth.EnemyCurrentHP;
+		//healthbar.maxValue = playerHealth.EnemyMaxHP;
 	}
 }
