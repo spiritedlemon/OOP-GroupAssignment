@@ -6,7 +6,8 @@ David Kilroy - C15523957
 Simon O'Leary - C15413218
 
 Link to Repo: https://github.com/spiritedlemon/OOP-GroupAssignment/tree/master/oop
-[![Moving Men](http://img.youtube.com/vi/https://youtu.be/1AeLm9AWk4w/0.jpg)](http://www.youtube.com/watch?v=https://youtu.be/1AeLm9AWk4wE "Moving Men")
+
+[![Moving Men](http://img.youtube.com/vi/1AeLm9AWk4w/0.jpg)](http://www.youtube.com/watch?v=1AeLm9AWk4w "Moving Men")
 
 We have created a 2D adventure game using Unity (version 5.2.2f1).
 
